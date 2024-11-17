@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+client/node_modules/
+server/node_modules/
+
+# Build directories
+client/build/
+server/build/
+
+# Environment variables
+.env
+
+# Jest cache
+jest-cache/
+jest-output/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Miscellaneous
+.DS_Store
+*.swp
