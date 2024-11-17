@@ -1,4 +1,10 @@
 # react_playground
+## Before all
+```
+cd client && npm install
+cd ../server && npm install
+```
+
 ## Build the React app:
 ```
 cd client && npm run build
