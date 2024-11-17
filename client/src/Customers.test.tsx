@@ -1,7 +1,8 @@
 import React from 'react';
 import { render, screen, waitFor } from '@testing-library/react';
-import Customers from './Customers';
+import Customers from './Customers.tsx';
 import fetchMock from 'jest-fetch-mock';
+import { test, beforeEach, expect } from '@jest/globals';
 
 fetchMock.enableMocks();
 

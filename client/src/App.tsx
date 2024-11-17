@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import Customers from './Customers';
+import Customers from './Customers.tsx';
 
 function App() {
   const [message, setMessage] = useState('');
